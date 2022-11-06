@@ -2,7 +2,7 @@
 # React - Portfolio
 
 This project, it's a portfolio of mine.
-Develoyed link [https://jagrati1213.github.io/react-portfolio/]
+Develoyed [link](https://jagrati1213.github.io/react-portfolio/)
 
 ## Language
 - HTML
