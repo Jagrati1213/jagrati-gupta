@@ -3,6 +3,7 @@ import Typed from "typed.js";
 import aboutstyle from '../css-files/About.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import ProgessBar from './ProgessBar';
 
 export default function About() {
 
@@ -56,41 +57,14 @@ export default function About() {
 
                         <div className="skills-wrapper lg:w-3/6 w-full">
                         <h2 className='text-white text-[25px] font-semibold'>Skills</h2>
-
-                          <div className="cssProgress">
-                            <div className="progress4">HTML</div>
-                            <div  data-aos="fade-right" data-aos-duration="1000" data-aos-easing="linear" className="cssProgress-bar html"></div>
-                          </div>
-
-                          <div className="cssProgress">
-                            <div className="progress4">CSS 3</div>
-                            <div  data-aos="fade-right" data-aos-duration="1000" data-aos-easing="linear" className="cssProgress-bar css"></div>
-                          </div>
-
-                          <div className="cssProgress">
-                            <div className="progress4">JavaScript</div>
-                            <div  data-aos="fade-right" data-aos-duration="1000" data-aos-easing="linear" className="cssProgress-bar js"></div>
-                          </div>
-
-                          <div className="cssProgress">
-                            <div className="progress4">Jquery</div>
-                            <div  data-aos="fade-right" data-aos-duration="1000" data-aos-easing="linear" className="cssProgress-bar jq"></div>
-                          </div>
-
-                          <div className="cssProgress">
-                            <div className="progress4">Bootstrap</div>
-                            <div  data-aos="fade-right" data-aos-duration="1000" data-aos-easing="linear" className="cssProgress-bar boot"></div>
-                          </div>
-
-                          <div className="cssProgress">
-                            <div className="progress4">React JS</div>
-                            <div  data-aos="fade-right" data-aos-duration="1000" data-aos-easing="linear" className="cssProgress-bar react"></div>
-                          </div>
-
-                          <div className="cssProgress">
-                            <div className="progress4">Tailwind</div>
-                            <div  data-aos="fade-right" data-aos-duration="1000" data-aos-easing="linear" className="cssProgress-bar tail"></div>
-                          </div>
+                        
+                          <ProgessBar ProgrssText='Html' progessName='cssProgress-bar html'/>
+                          <ProgessBar ProgrssText='CSS 3' progessName='cssProgress-bar css'/>
+                          <ProgessBar ProgrssText='JavaScript' progessName='cssProgress-bar js'/>
+                          <ProgessBar ProgrssText='Jquery' progessName='cssProgress-bar jq'/>
+                          <ProgessBar ProgrssText='Bootstrap' progessName='cssProgress-bar boot'/>
+                          <ProgessBar ProgrssText='React JS' progessName='cssProgress-bar react'/>
+                          <ProgessBar ProgrssText='Tailwind' progessName='cssProgress-bar react'/>
                         </div>
                    </div>
              </div>
