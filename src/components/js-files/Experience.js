@@ -27,7 +27,7 @@ export default function Experience() {
             postion :'Wordpess dev',
             company:'WebnU',
             time:'Jan 2021 - May 2021',
-            des:' Here, I learned how to customize WordPress pages & Elementor plugins.And also they taught me about Shopify liquid and sections type of things.',
+            des:'Develop and maintain WordPress websites for clients using custom themes and plugins, as well as off-the-shelf themes and plugins Develop',
             workLink:[
                 {
                  link:'https://onzo.in/',
@@ -43,7 +43,7 @@ export default function Experience() {
             postion :'Frontend Developer',
             company:'FrintArt',
             time:'July 2022 - Nov 2022',
-            des:'Here, I handle the UI design. And corporate with clients. And they taugth me about Angular JS.',
+            des:'Collaborate with designers, project managers, and backend developers to develop responsive and accessible web applications using HTML, CSS, and JavaScript.',
             workLink:[
                 {
                  link:'https://frintart.com/',
