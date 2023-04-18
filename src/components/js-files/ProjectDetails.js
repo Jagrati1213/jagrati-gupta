@@ -14,7 +14,7 @@ const ProjectDetails =[
     gitLink:'https://github.com/Jagrati1213/nike-clone',
     projectLink:'https://jagrati1213.github.io/nike-clone/',
     title:'Nike Clone',
-    des:'It was a E-commerce project. A Home page website of original Nike. In this project i used Taliwind Css',
+    des:'It was an E-commerce project. A Home page website of original Nike. In this project i used Taliwind Css',
     skill:["html","JS","Tailwind","AOS","Slick"]
  },
  {
@@ -85,7 +85,7 @@ const ProjectDetails =[
     class:'show-more card p-4 cursor-pointer rounded hover:-translate-y-2 transition-all',
     gitLink:'https://github.com/Jagrati1213/js-todolist',
     projectLink:'https://jagrati1213.github.io/js-todolist/',
-    title:'JS TODOLIST',
+    title:'JS To Do List',
     des:'It was JS project.Here you can add items,delete items, edit items',
     skill:["html","JS","FontAwsome","Bootstrap"]
  },
@@ -160,6 +160,26 @@ const ProjectDetails =[
     title:'JS clock',
     des:'It was JS project. Where you can see current Time.',
     skill:["html","JS","FontAwsome","Bootstrap"]
+
+},
+{
+   id:19,    
+   class:'show-more card p-4 cursor-pointer rounded hover:-translate-y-2 transition-all',
+   gitLink:'https://github.com/Jagrati1213/snake-game',
+   projectLink:'https://jagrati1213.github.io/snake-game/',
+   title:'Snake Game',
+   des:'It is a snake game, play in your free time with keys',
+   skill:["html","JS","CSS"]
+
+},
+{
+   id:20,    
+   class:'show-more card p-4 cursor-pointer rounded hover:-translate-y-2 transition-all',
+   gitLink:'https://github.com/Jagrati1213/budget-app',
+   projectLink:'https://jagrati1213.github.io/budget-app',
+   title:'budget-app',
+   des:'It is a budget-app, to calculate your expenses',
+   skill:["html","JS","CSS","DOM"]
 
 }
 
