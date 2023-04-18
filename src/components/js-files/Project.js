@@ -41,7 +41,7 @@ export default function Project() {
              <div className="container lg:w-[80%] w-full py-20 flex flex-col justify-center items-center m-auto">
                 <h1 className='project-head text-center md:text-3xl text-[25px] text-white uppercase'>03. Worthy Projects</h1>
 
-                 <div className="proj-holder mt-20 lg:w-[80%] w-full m-auto lg:px-10 px-3">
+                 <div className="proj-holder mt-20 lg:w-[80%] w-full m-auto lg:px-10 px-3" style={{transition:'all .3s cubic-bezier(0.175, 0.008,0.32,1.275)'}}>
 
                     {    
                         // Put the projects..
