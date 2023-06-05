@@ -1,12 +1,14 @@
-.about-wrapper{
+.about-wrapper {
     min-height: calc(90vh - 63px);
 }
-.about-head{
+
+.about-head {
     line-height: 65px;
     position: relative;
     display: inline-block;
 }
-.about-head::after{
+
+.about-head::after {
     position: absolute;
     bottom: 0%;
     content: '';
@@ -17,57 +19,70 @@
     width: 60%;
     left: 25%;
 }
-p{
+
+p {
     text-align: justify;
 }
-.about-me li{
-    list-style-type:initial;
+
+.about-me li {
+    list-style-type: initial;
     padding: 12px 0;
 }
-.about-me li::marker{
+
+.about-me li::marker {
     content: '⚡';
 }
-.skills-wrapper{
+
+.skills-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
 
-.cssProgress{
+.cssProgress {
     background: #3e4555;
     width: 100%;
     height: 30px;
     display: flex;
     margin: 12px 0;
 }
-.progress4{
+
+.progress4 {
     background: #39b175;
     color: white;
     padding: 2px 20px;
     width: 8rem;
 }
-.cssProgress-bar{
+
+.cssProgress-bar {
     width: 60%;
     background: #0be779;
 }
-.html{
+
+.html {
     width: 65%;
 }
-.css{
+
+.css {
     width: 65%;
 }
-.js{
+
+.js {
     width: 50%;
 }
-.jq{
+
+.jq {
     width: 40%;
 }
-.react{
-    width:30%
+
+.react {
+    width: 30%
 }
-.boot{
+
+.boot {
     width: 59%;
 }
-.tail{
+
+.tail {
     width: 50%;
 }
