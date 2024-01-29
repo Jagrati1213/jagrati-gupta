@@ -67,7 +67,7 @@ export default function Home() {
   const el = useRef(null);
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["'m a frontend dev. ", "love to coding. ", "like to design UI. ", "love meeting people. "],
+      strings: ["'m a frontend Developer. ", "'m a React Js Developer. ", "like to debugging. ", "love learn new techs. "],
       // Speed settings
       startDelay: 200,
       typeSpeed: 100,
