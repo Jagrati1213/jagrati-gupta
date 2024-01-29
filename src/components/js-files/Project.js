@@ -47,24 +47,24 @@ export default function Project() {
               // Put the projects..
               data.map((currEle, idx) => {
                 return (
-                  <div key={currEle.idx} className={currEle.class} style={{ backgroundColor: 'rgb(62 69 85 / 1)' }}>
+                  <div key={idx} className={currEle?.class} style={{ backgroundColor: 'rgb(62 69 85 / 1)' }}>
                     <div className="card-body flex flex-col justify-evenly min-h-[30vh] px-2">
                       <div className="card-header">
                         <h5 className="card-title flex justify-between text-xl mb-10">
                           <span className='text-[#61a796] text-3xl'><ion-icon name="folder-outline"></ion-icon></span>
                           <span className='text-white'>
-                            <a href={currEle.gitLink} target="_blank" ><ion-icon name="logo-github"></ion-icon> </a>
-                            <a href={currEle.projectLink} target="_blank" ><ion-icon name="share-social-outline"></ion-icon></a>
+                            <a href={currEle?.gitLink} target="_blank" ><ion-icon name="logo-github"></ion-icon> </a>
+                            <a href={currEle?.projectLink} target="_blank" ><ion-icon name="share-social-outline"></ion-icon></a>
                           </span>
                         </h5>
-                        <h6 className="card-subtitle mb-2 text-[#dae1fa] text-2xl font-semibold">{currEle.title}</h6>
-                        <p className="card-text text-gray-400">{currEle.des}</p>
+                        <h6 className="card-subtitle mb-2 text-[#dae1fa] text-2xl font-semibold">{currEle?.title}</h6>
+                        <p className="card-text text-gray-400">{currEle?.des}</p>
                       </div>
 
                       <div className="card-footer">
                         <ul className="card-skills flex justify-between text-[#61a796]">
                           {
-                            currEle.skill.map((currSkill, index) => {
+                            currEle?.skill?.map((currSkill, index) => {
                               return <li key={index} className='text-[13px]'>{currSkill}</li>
                             })
                           }
