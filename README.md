@@ -1,7 +1,7 @@
 # Jagrati Gupta
 
 Welcome to my portfolio repository! This portfolio is built using React.js, React Router, tsparticles, and Typed.js to showcase my skills and projects.
- [Jagrati Gupta](https://jagrati1213.github.io/react-portfolio/)
+ [Jagrati Gupta](https://jagrati-gupta.vercel.app/)
  
 ## Getting Started :
 
