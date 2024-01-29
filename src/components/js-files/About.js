@@ -43,16 +43,16 @@ export default function About() {
               <h2 className='text-white text-[25px] font-semibold'>Who Am I?</h2>
               <p className='text-white text-base my-5'>I'm Jagrati 🤓</p>
               <ol className='text-white text-md ml-2'>
-                <li data-icon="🦄"> I'm a frontend & wordpess developer.</li>
+                <li data-icon="🦄"> I'm a front-end & React JS developer.</li>
                 <li> I Love to Learned new things, & create sites.</li>
-                <li>I also worked on JavaScript, Jquery, Shopify, Wordpress.</li>
+                <li>I also worked on JavaScript, Jquery, Wordpress.</li>
                 <li>You can contact me on <i>Linkdin</i>, if you want to create your own sites.</li>
                 <li ref={about}></li>
               </ol>
               <p className='text-md my-6 lg:pr-10 text-[#61a796]' >
                 Since 2019 - I've spent my time seeking and learning new technologies.
                 This has led to me working on some amazing world-class projects, worked at some
-                amazing places like [ WebnU, FrintArt ], and worked with some great people.
+                amazing places like [ WebnU, FrintArt, TopBar ], and worked with some great people.
                 If you are looking for a dedicated front-end developer who is passionate about
                 creating exceptional user experiences, please don't hesitate to get in touch.
               </p>
@@ -64,14 +64,13 @@ export default function About() {
               <ProgessBar ProgrssText='Html' progessName='cssProgress-bar html' />
               <ProgessBar ProgrssText='CSS 3' progessName='cssProgress-bar css' />
               <ProgessBar ProgrssText='JavaScript' progessName='cssProgress-bar js' />
-              <ProgessBar ProgrssText='GitHub' progessName='cssProgress-bar js' />
+              <ProgessBar ProgrssText='React JS' progessName='cssProgress-bar react' />
               <ProgessBar ProgrssText='Jquery' progessName='cssProgress-bar jq' />
               <ProgessBar ProgrssText='Bootstrap' progessName='cssProgress-bar boot' />
-              <ProgessBar ProgrssText='React JS' progessName='cssProgress-bar react' />
               <ProgessBar ProgrssText='Tailwind' progessName='cssProgress-bar react' />
               <ProgessBar ProgrssText='Ant-Design' progessName='cssProgress-bar boot' />
-              <ProgessBar ProgrssText='Saas' progessName='cssProgress-bar boot' />
-              <ProgessBar ProgrssText='Chakra-UI' progessName='cssProgress-bar html' />
+              <ProgessBar ProgrssText='GitHub' progessName='cssProgress-bar js' />
+
             </div>
           </div>
         </div>
