@@ -1,88 +1,88 @@
 .about-wrapper {
-    min-height: calc(90vh - 63px);
+  min-height: calc(90vh - 63px);
 }
 
 .about-head {
-    line-height: 65px;
-    position: relative;
-    display: inline-block;
+  line-height: 65px;
+  position: relative;
+  display: inline-block;
 }
 
 .about-head::after {
-    position: absolute;
-    bottom: 0%;
-    content: '';
-    height: 2px;
-    margin: auto 0;
-    background: #4ade80;
-    top: 65%;
-    width: 60%;
-    left: 25%;
+  position: absolute;
+  bottom: 0%;
+  content: "";
+  height: 2px;
+  margin: auto 0;
+  background: #4ade80;
+  top: 65%;
+  width: 60%;
+  left: 25%;
 }
 
 p {
-    text-align: justify;
+  text-align: justify;
 }
 
 .about-me li {
-    list-style-type: initial;
-    padding: 12px 0;
+  list-style-type: initial;
+  padding: 12px 0;
 }
 
 .about-me li::marker {
-    content: '⚡';
+  content: "⚡";
 }
 
 .skills-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .cssProgress {
-    background: #3e4555;
-    width: 100%;
-    height: 30px;
-    display: flex;
-    margin: 12px 0;
+  background: #3e4555;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  margin: 12px 0;
 }
 
 .progress4 {
-    background: #39b175;
-    color: white;
-    padding: 2px 20px;
-    width: 8rem;
+  background: #39b175;
+  color: white;
+  padding: 2px 20px;
+  width: 8rem;
 }
 
 .cssProgress-bar {
-    width: 60%;
-    background: #0be779;
+  width: 60%;
+  background: #0be779;
 }
 
 .html {
-    width: 65%;
+  width: 65%;
 }
 
 .css {
-    width: 65%;
+  width: 65%;
 }
 
 .js {
-    width: 50%;
+  width: 50%;
 }
 
 .jq {
-    width: 40%;
+  width: 40%;
 }
 
 .react {
-    width: 30%
+  width: 50%;
 }
 
 .boot {
-    width: 59%;
+  width: 59%;
 }
 
 .tail {
-    width: 50%;
+  width: 50%;
 }
