@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import Particle from './Particle';
 import Typed from "typed.js";
 import profileImg from '../images/WhatsApp Image 2023-04-17 at 5.51.51 PM.jpeg';
@@ -10,6 +10,8 @@ import 'aos/dist/aos.css';
 
 export default function Home() {
 
+  const [menu, setMenu] = useState(false);
+
   //scroll the window 
   const scrollDown = () => {
     window.scrollTo({
@@ -20,24 +22,10 @@ export default function Home() {
   };
 
   //Toggle menu btn 
-  const menuToggle = (event) => {
-
-    const list = document.querySelector('.sub-list');
-    let menuName = event.target;
-    if (menuName.name == 'menu') {
-
-      menuName.name = 'close';
-      list.classList.add('h-[31vh]');
-      list.classList.add('overflow-y-auto');
-      list.classList.remove('h-0');
-    }
-    else {
-      menuName.name = 'menu';
-      list.classList.add('h-0');
-      list.classList.remove('overflow-y-auto');
-      list.classList.remove('h-[31vh]');
-    }
+  const menuToggle = () => {
+    setMenu(!menu);
   }
+
   // stick on top after scroll
   window.addEventListener("scroll", () => {
     const nav = document.querySelector(".navbar");
@@ -47,13 +35,8 @@ export default function Home() {
 
   //Change title
   const titleName = (event) => {
-    const list = document.querySelector('.sub-list');
-    const navBtn = document.querySelector('.nav-btn ion-icon');
-    navBtn.name = 'menu';
 
-    list.classList.add('h-0');
-    list.classList.remove('overflow-y-auto');
-    list.classList.remove('h-[31vh]');
+    if (menu) setMenu(false);
 
     if (event.target.name == 'Home') {
       document.title = `Jagrati Gupta `
@@ -125,7 +108,7 @@ export default function Home() {
           {/* Navigation */}
           <div className="navbar w-full py-5 bg-[#23252a] z-[1000] border-b-4 border-green-400" id='navbar'>
             <div className="nav-btn text-4xl text-white lg:hidden flex justify-end">
-              <ion-icon name="menu" onClick={menuToggle}></ion-icon>
+              <ion-icon name={!menu ? "menu" : "close"} onClick={menuToggle}></ion-icon>
             </div>
             <ul className='lg:flex hidden list justify-evenly items-center uppercase'>
               <li className='text-base text-white font-semibold cursor-pointer lg:py-0 py-3 lg:pl-0 pl-10'>
@@ -141,7 +124,7 @@ export default function Home() {
                 <a href="#project" onClick={titleName} name="Projects">Projects</a>
               </li>
             </ul>
-            <ul className='sub-list z-[1000]'>
+            <ul className={`sub-list z-[1000] ${menu ? 'h-[31vh] overflow-y-auto' : 'h-0'}`}>
               <li className='text-base text-white font-semibold cursor-pointer lg:py-0 py-3 lg:pl-0 pl-10'>
                 <a href="#home" onClick={titleName} name="Home">Home</a>
               </li>
