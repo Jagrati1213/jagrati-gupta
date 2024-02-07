@@ -110,32 +110,18 @@ export default function Home() {
             <div className="nav-btn text-4xl text-white lg:hidden flex justify-end">
               <ion-icon name={!menu ? "menu" : "close"} onClick={menuToggle}></ion-icon>
             </div>
-            <ul className='lg:flex hidden list justify-evenly items-center uppercase'>
+            <ul className={`${menu ? 'h-[31vh]' : 'h-0'} w-full lg:flex block list justify-evenly items-center uppercase text-left lg:text-center bg-[#23252a] top-20 lg:top-0 left-0 overflow-y-hidden`}>
               <li className='text-base text-white font-semibold cursor-pointer lg:py-0 py-3 lg:pl-0 pl-10'>
-                <a href="#home" onClick={titleName} name="Home">Home</a>
+                <a href="#home" name="Home">Home</a>
               </li>
               <li className='text-base text-white font-semibold cursor-pointer lg:py-0 py-3 lg:pl-0 pl-10'>
-                <a href="#about" onClick={titleName} name="About">About</a>
+                <a href="#about" name="About">About</a>
               </li>
               <li className='text-base text-white font-semibold cursor-pointer lg:py-0 py-3 lg:pl-0 pl-10'>
-                <a href="#experience" onClick={titleName} name="Experience">Experience</a>
+                <a href="#experience" name="Experience">Experience</a>
               </li>
               <li className='text-base text-white font-semibold cursor-pointer lg:py-0 py-3 lg:pl-0 pl-10'>
-                <a href="#project" onClick={titleName} name="Projects">Projects</a>
-              </li>
-            </ul>
-            <ul className={`sub-list z-[1000] ${menu ? 'h-[31vh] overflow-y-auto' : 'h-0'}`}>
-              <li className='text-base text-white font-semibold cursor-pointer lg:py-0 py-3 lg:pl-0 pl-10'>
-                <a href="#home" onClick={titleName} name="Home">Home</a>
-              </li>
-              <li className='text-base text-white font-semibold cursor-pointer lg:py-0 py-3 lg:pl-0 pl-10'>
-                <a href="#about" onClick={titleName} name="About">About</a>
-              </li>
-              <li className='text-base text-white font-semibold cursor-pointer lg:py-0 py-3 lg:pl-0 pl-10'>
-                <a href="#experience" onClick={titleName} name="Experience">Experience</a>
-              </li>
-              <li className='text-base text-white font-semibold cursor-pointer lg:py-0 py-3 lg:pl-0 pl-10'>
-                <a href="#project" onClick={titleName} name="Projects">Projects</a>
+                <a href="#project" name="Projects">Projects</a>
               </li>
             </ul>
           </div>
