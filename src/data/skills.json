@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Html",
+        "progress": 65
+    },
+    {
+        "name": "CSS 3",
+        "progress": 65
+    },
+    {
+        "name": "JavaScript",
+        "progress": 70
+    },
+    {
+        "name": "React JS",
+        "progress": 60
+    },
+    {
+        "name": "Jquery",
+        "progress": 70
+    },
+    {
+        "name": "Bootstrap",
+        "progress": 59
+    },
+    {
+        "name": "Tailwind",
+        "progress": 59
+    },
+    {
+        "name": "TypeScript",
+        "progress": 60
+    }
+]

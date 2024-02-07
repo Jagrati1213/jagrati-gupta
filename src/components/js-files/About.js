@@ -4,6 +4,7 @@ import aboutstyle from '../css-files/About.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import ProgessBar from './ProgessBar';
+import skillData from '../../data/skills.json';
 
 export default function About() {
 
@@ -61,16 +62,11 @@ export default function About() {
             <div className="skills-wrapper lg:w-3/6 w-full">
               <h2 className='text-white text-[25px] font-semibold'>Skills</h2>
 
-              <ProgessBar ProgrssText='Html' progessName='cssProgress-bar html' />
-              <ProgessBar ProgrssText='CSS 3' progessName='cssProgress-bar css' />
-              <ProgessBar ProgrssText='JavaScript' progessName='cssProgress-bar js' />
-              <ProgessBar ProgrssText='React JS' progessName='cssProgress-bar react' />
-              <ProgessBar ProgrssText='Jquery' progessName='cssProgress-bar jq' />
-              <ProgessBar ProgrssText='Bootstrap' progessName='cssProgress-bar boot' />
-              <ProgessBar ProgrssText='Tailwind' progessName='cssProgress-bar react' />
-              <ProgessBar ProgrssText='Ant-Design' progessName='cssProgress-bar boot' />
-              <ProgessBar ProgrssText='GitHub' progessName='cssProgress-bar js' />
-
+              {
+                skillData.map((skill, index) => {
+                  return <ProgessBar key={index} ProgressText={skill.name} progressClass={skill.progress} />
+                })
+              }
             </div>
           </div>
         </div>
