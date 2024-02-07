@@ -24,7 +24,7 @@ const ProjectDetails = [
       skill: ["Ant-design", "React", 'React-flow']
    },
    {
-      class: 'card p-4 cursor-pointer rounded hover:-translate-y-2 transition-all',
+      class: 'show-more card p-4 cursor-pointer rounded hover:-translate-y-2 transition-all',
       gitLink: 'https://github.com/Jagrati1213/react-spotify-clone',
       projectLink: 'https://react-spotify-clone-one.vercel.app/',
       title: 'Spotify Song List Clone',
