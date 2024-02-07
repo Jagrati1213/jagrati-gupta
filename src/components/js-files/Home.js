@@ -11,8 +11,10 @@ import 'aos/dist/aos.css';
 export default function Home() {
 
   const [menu, setMenu] = useState(false);
+  const [isSticky, setIsSticky] = useState(false);
+  const navScrollRef = useRef(null);
 
-  //scroll the window 
+  //scroll Up 
   const scrollDown = () => {
     window.scrollTo({
       left: 0,
@@ -21,32 +23,27 @@ export default function Home() {
     });
   };
 
-  //Toggle menu btn 
+  //Toggle menu 
   const menuToggle = () => {
     setMenu(!menu);
   }
 
-  // stick on top after scroll
-  window.addEventListener("scroll", () => {
-    const nav = document.querySelector(".navbar");
-    const NavTop = nav.offsetTop;
-    nav.classList.toggle('sticky', window.scrollY > NavTop);
-  });
+  // Fixed navbar
+  const handleScroll = () => {
+    const navTop = navScrollRef.current.offsetTop;
+    setIsSticky(window.scrollY > navTop);
+  };
 
-  //Change title
-  const titleName = (event) => {
+  useEffect(() => {
 
-    if (menu) setMenu(false);
+    window.addEventListener("scroll", handleScroll);
 
-    if (event.target.name == 'Home') {
-      document.title = `Jagrati Gupta `
-    }
-    else {
-      document.title = `Jagrati Gupta | ${event.target.name}`
-    }
-  }
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
-  //custom display typing..
+  // Custom display typing..
   const el = useRef(null);
   useEffect(() => {
     const typed = new Typed(el.current, {
@@ -80,14 +77,19 @@ export default function Home() {
           <div className="greetings z-[1000] flex flex-col justify-center items-center my-auto">
 
             {/* Profile-img */}
-            <img src={profileImg} alt="profile-img" className='object-cover profile w-[120px] h-[120px] rounded-full border-green-600 border-4'
-              data-aos='fade-down' data-aos-duration="2000" />
+            <img src={profileImg}
+              alt="profile-img"
+              className='object-cover profile w-32 h-32 rounded-full border-green-700 border-4'
+              data-aos='fade-down'
+              data-aos-duration="2000" />
 
             {/* Intro */}
-            <h1 className='font-semibold text-white lg:text-4xl text-[30px] mt-4' data-aos='fade-down' data-aos-duration="2000">
+            <h1 className='font-semibold text-white lg:text-4xl text-[30px] mt-4'
+              data-aos='fade-down'
+              data-aos-duration="2000">
               Hi, I'm
               <span className='my_name text-green-400'> Jagrati Gupta</span>.
-              <span className='wave'>👋🏽</span>
+              <span className='animate-bounce absolute'>👋🏽</span>
             </h1>
 
             {/* Auto typed-note */}
@@ -106,21 +108,27 @@ export default function Home() {
           </div>
 
           {/* Navigation */}
-          <div className="navbar w-full py-5 bg-[#23252a] z-[1000] border-b-4 border-green-400" id='navbar'>
+          <div className={`navbar w-full py-5 bg-[#23252a] z-[1000] border-b-4 border-green-400 ${isSticky ? 'fixed top-0' : ''}`}
+            ref={navScrollRef}>
             <div className="nav-btn text-4xl text-white lg:hidden flex justify-end">
               <ion-icon name={!menu ? "menu" : "close"} onClick={menuToggle}></ion-icon>
             </div>
-            <ul className={`${menu ? 'h-[31vh]' : 'h-0'} w-full lg:flex block list justify-evenly items-center uppercase text-left lg:text-center bg-[#23252a] top-20 lg:top-0 left-0 overflow-y-hidden`}>
-              <li className='text-base text-white font-semibold cursor-pointer lg:py-0 py-3 lg:pl-0 pl-10'>
+            <ul className={`${menu ? 'h-[31vh]' : 'h-0'} w-full lg:flex block list justify-evenly items-center uppercase text-left lg:text-center bg-[#23252a] top-20 lg:top-0 left-0 overflow-y-hidden transition-all`}>
+
+              <li className='text-base text-white font-semibold cursor-pointer lg:py-0 py-3 lg:pl-0 pl-10'
+                onClick={menuToggle} >
                 <a href="#home" name="Home">Home</a>
               </li>
-              <li className='text-base text-white font-semibold cursor-pointer lg:py-0 py-3 lg:pl-0 pl-10'>
+              <li className='text-base text-white font-semibold cursor-pointer lg:py-0 py-3 lg:pl-0 pl-10'
+                onClick={menuToggle}>
                 <a href="#about" name="About">About</a>
               </li>
-              <li className='text-base text-white font-semibold cursor-pointer lg:py-0 py-3 lg:pl-0 pl-10'>
+              <li className='text-base text-white font-semibold cursor-pointer lg:py-0 py-3 lg:pl-0 pl-10'
+                onClick={menuToggle}>
                 <a href="#experience" name="Experience">Experience</a>
               </li>
-              <li className='text-base text-white font-semibold cursor-pointer lg:py-0 py-3 lg:pl-0 pl-10'>
+              <li className='text-base text-white font-semibold cursor-pointer lg:py-0 py-3 lg:pl-0 pl-10'
+                onClick={menuToggle}>
                 <a href="#project" name="Projects">Projects</a>
               </li>
             </ul>
