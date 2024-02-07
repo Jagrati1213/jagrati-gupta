@@ -3,7 +3,7 @@ const ProjectDetails = [
       class: 'card p-4 cursor-pointer rounded hover:-translate-y-2 transition-all',
       gitLink: 'https://github.com/Jagrati1213/namaste-react-js-course/tree/main/snap-gpt',
       projectLink: 'https://film-chicks-hm83.vercel.app/',
-      title: 'Desi Bazar',
+      title: 'Film-Chicks',
       des: `Film-chicks is a dynamic web app. Offer users the latest movie releases, detailed, and personalized recommendations.`,
       skill: ["TailWind", "React", "OpenAi GPT", "Redux", "Firebase"]
    },
