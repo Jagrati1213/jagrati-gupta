@@ -1,0 +1,36 @@
+[
+    {
+        "position": "Web dev",
+        "company": "WebnU",
+        "time": "Jan 2022 - May 2022",
+        "des": "Responsive Design for Optimal User Experience HTML, CSS, JavaScript Development Seamless Integration of Visuals and Content",
+        "workLink": [
+            {
+                "link": "https://onzo.in/",
+                "projectName": "Onzo"
+            },
+            {
+                "link": "https://www.wholesalerkart.com/",
+                "projectName": "Wholescart"
+            }
+        ]
+    },
+    {
+        "position": "Frontend Developer",
+        "company": "FrintArt",
+        "time": "May 2022 - Jan 2023",
+        "des": " Enhanced User Interfaces Collaborated on Web Development Bit Bucket for Codebase Management",
+        "workLink": [
+            {
+                "link": "https://frintart.com/",
+                "projectName": "FrintArt"
+            }
+        ]
+    },
+    {
+        "position": "Frontend Developer",
+        "company": "TopBar",
+        "time": "Nov 2023 - Dec 2023",
+        "des": "It\"s a freelancing work, where I use React js, and apis"
+    }
+]
