@@ -6,7 +6,7 @@ export default function Particle() {
     await loadFull(main);
   };
 
-  const particlesLoaded = async (container) => {};
+  const particlesLoaded = async (container) => { };
 
   return (
     <Particles
@@ -22,8 +22,6 @@ export default function Particle() {
         },
         style: {
           position: "absolute",
-          // width:"200px",
-          // height:"50vh"
         },
         interactivity: {
           detect_on: "canvas",
