@@ -1,3 +1,51 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .heading {
+        @apply inline-block relative after:absolute after:bottom-0 after:content-[""] after:h-[2px] after:my-auto after:mx-0 after:bg-green-400 after:top-12 after:left-0 after:w-full text-center md:text-3xl text-[25px] text-white;
+
+    }
+
+    .container-home {
+        @apply relative bg-[#272b33] w-full flex justify-center items-center z-[1000] flex-col text-center;
+    }
+
+    .header {
+        @apply w-full py-5 bg-[#23252a] z-20 border-b-4 border-green-400;
+    }
+
+    .header-ul {
+        @apply w-full lg:flex block justify-evenly items-center uppercase text-left lg:text-center bg-[#23252a] top-20 lg:top-0 left-0 overflow-y-hidden transition-all;
+    }
+
+    .header-li {
+        @apply text-base text-white font-semibold cursor-pointer lg:py-0 py-3 lg:pl-0 pl-10;
+    }
+
+    .intro-scroll {
+        @apply flex items-center justify-center absolute bottom-40 text-xl rounded-full w-10 h-10 bg-white text-blue-900 hover:text-green-400;
+    }
+
+    .about-li {
+        @apply marker:content-["⚡"] my-2
+    }
+
+    .experience {
+        @apply w-full flex justify-center items-center flex-col mx-auto bg-[#272b33] py-10;
+    }
+
+    .experience-heading {
+        @apply pl-2 py-2 font-semibold inline-block lg:text-3xl text-2xl text-[#39b175];
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: sans-serif;
+    font-family: "Montserrat", sans-serif;
+}
