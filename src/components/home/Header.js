@@ -32,7 +32,7 @@ export default function Header() {
             <div className="nav-btn text-4xl text-white lg:hidden flex justify-end">
                 <ion-icon name={!menu ? "menu" : "close"} onClick={menuToggle}></ion-icon>
             </div>
-            <ul className={`${menu ? 'h-[31vh]' : 'h-0'} md:h-auto header-ul`}>
+            <ul className={`${menu ? 'h-[31vh]' : 'h-0'} lg:h-auto header-ul`}>
 
                 <li className='header-li'
                     onClick={menuToggle} >
