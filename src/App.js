@@ -1,23 +1,23 @@
 import './App.css';
-import About from './components/js-files/About';
-import Experience from './components/js-files/Experience';
-import Home from './components/js-files/Home';
+import About from './components/about/About';
+import Experience from './components/experience/Experience';
+import Home from './components/home/Home';
 import Project from './components/js-files/Project';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 function App() {
-  
+
   AOS.init();
   return (
-     <>
-         <div className="App">
-              <Home/>
-              <About/>
-              <Experience/>
-              <Project/>
-    </div>
-     </>
+    <>
+      <div className="App w-full bg-[#272b33]">
+        <Home />
+        <About />
+        <Experience />
+        <Project />
+      </div>
+    </>
   );
 }
 
