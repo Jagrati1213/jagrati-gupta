@@ -1,9 +1,9 @@
 import React from 'react';
-import Particle from '../js-files/Particle';
 import Intro from './Intro';
 import Header from './Header';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Particle from './Particle';
 
 export default function Home() {
 
