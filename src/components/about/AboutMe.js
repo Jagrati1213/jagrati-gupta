@@ -8,7 +8,7 @@ export default function AboutMe() {
 
     useEffect(() => {
         const typed = new Typed(about.current, {
-            strings: ["I love to fixing bugs. ", "I love to making websites ", "I love to solvings complex proplems. "],
+            strings: ["I love to fixing bugs. ", "I love to making websites ", "I love to solving complex problems. "],
             // Speed settings
             startDelay: 200,
             typeSpeed: 100,
@@ -40,7 +40,7 @@ export default function AboutMe() {
                     I also worked on JavaScript, Jquery, Typescript.
                 </li>
                 <li className='about-li'>
-                    You can contact me on <i>Linkdin</i>, if you want to create your own sites.
+                    You can contact me on <i>Linkedin</i>, if you want to create your own sites.
                 </li>
                 <li className='about-li' ref={about}></li>
             </ol>

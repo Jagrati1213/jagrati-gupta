@@ -1,5 +1,5 @@
 import React from 'react'
-import ProgessBar from '../js-files/ProgessBar'
+import ProgressBar from './ProgressBar';
 import skillData from '../../data/skills.json';
 
 export default function Skills() {
@@ -9,7 +9,7 @@ export default function Skills() {
 
             {
                 skillData.map((skill, index) => {
-                    return <ProgessBar key={index} ProgressText={skill.name} progressClass={skill.progress} />
+                    return <ProgressBar key={index} ProgressText={skill.name} progressClass={skill.progress} />
                 })
             }
         </div>

@@ -9,7 +9,7 @@
     }
 
     .container-home {
-        @apply relative bg-[#272b33] w-full flex justify-center items-center z-[1000] flex-col text-center;
+        @apply relative w-full flex justify-center items-center z-[1000] flex-col text-center;
     }
 
     .header {
@@ -30,6 +30,10 @@
 
     .about-li {
         @apply marker:content-["⚡"] my-2
+    }
+
+    .progress-text {
+        @apply bg-green-600 text-white text-xs md:text-base flex items-center justify-center w-20 md:w-32;
     }
 
     .experience {
@@ -57,11 +61,36 @@
     }
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
+    background: #272b33;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    width: 100%;
     overflow-x: hidden;
-    font-family: sans-serif;
-    font-family: "Montserrat", sans-serif;
+}
+
+/* width */
+body::-webkit-scrollbar {
+    width: 14px;
+}
+
+/* Track */
+body::-webkit-scrollbar-track {
+    background: #23252a;
+
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+    background-color: #606071;
+}
+
+/* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+    background: rgb(158, 91, 3);
 }
