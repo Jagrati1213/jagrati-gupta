@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import workData from '../../data/works.json';
 
 export default function Work() {
@@ -27,7 +27,8 @@ export default function Work() {
                                 {
                                     currWork?.workLink?.map((currLink, index) => {
                                         return (
-                                            <li key={index} className=' hover:text-white hover:underline cursor-pointer italic text-[#61a796]'>
+                                            <li key={index} className=' hover:text-white hover:underline cursor-pointer italic text-[#61a796]
+                                            marker:content-["⚡"]'>
                                                 <a href={currLink?.link} target="_blank" rel="noopener noreferrer">{currLink?.projectName}</a>
                                             </li>
                                         )

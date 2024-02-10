@@ -1,5 +1,4 @@
 import React from 'react'
-import '../css-files/Experience.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Education from './Education';
