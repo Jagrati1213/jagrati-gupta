@@ -4,7 +4,7 @@
 
 @layer components {
     .heading {
-        @apply inline-block relative after:absolute after:bottom-0 after:content-[""] after:h-[2px] after:my-auto after:mx-0 after:bg-green-400 after:top-12 after:left-0 after:w-full text-center md:text-3xl text-[25px] text-white;
+        @apply inline-block relative after:absolute after:bottom-0 after:content-[""] after:h-[2px] after:my-auto after:mx-0 after:bg-green-400 after:top-12 after:left-0 after:w-full text-center md:text-3xl text-xl text-white uppercase;
 
     }
 
@@ -38,6 +38,22 @@
 
     .experience-heading {
         @apply pl-2 py-2 font-semibold inline-block lg:text-3xl text-2xl text-[#39b175];
+    }
+
+    .show-btn {
+        @apply border-2 border-emerald-600 text-base text-white p-3 rounded-sm my-20 transition-all hover:text-black hover:bg-emerald-500;
+    }
+
+    .project-container {
+        @apply grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 mt-20 w-full mx-auto lg:px-10 px-3;
+    }
+
+    .project-card {
+        @apply p-4 cursor-pointer rounded hover:-translate-y-2 transition-all bg-gray-700 w-full min-h-[30vh] flex flex-col justify-evenly;
+    }
+
+    .project-title {
+        @apply mb-2 text-[#dae1fa] text-lg md:text-2xl font-semibold group-hover:text-[#93f6dd];
     }
 }
 
