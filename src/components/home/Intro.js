@@ -59,11 +59,11 @@ export default function Intro() {
             <h3 className='auto_typed lg:text-3xl text-base text-center text-white mt-5'>
                 I <span ref={el}></span>
             </h3>
-            {/*Linkedin link */}
+
+            {/*resume link */}
             <a href={Resume} download className='py-3 px-4 text-white bg-[#384258]  mt-7 rounded-sm shadow shadow-[#384258]' >
                 Download Resume
             </a>
-
 
             {/* Scroll-down button */}
             <button onClick={scrollDown}
