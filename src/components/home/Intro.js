@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react'
-import profileImg from '../images/jagrati.jpeg';
-import linkedinImg from '../images/linkedin.png'
+import profileImg from '../../images/jagrati.jpeg';
+import Resume from '../../images/Jagrati Gupta.pdf';
 import Typed from 'typed.js';
 
 export default function Intro() {
@@ -52,7 +52,7 @@ export default function Intro() {
                 data-aos-duration="2000">
                 Hi, I'm
                 <span className='my_name text-green-400'> Jagrati Gupta</span>.
-                <span className='animate-bounce absolute'>👋🏽</span>
+                <span className='animate-bounce absolute hidden lg:inline'>👋🏽</span>
             </h1>
 
             {/* Auto typed-note */}
@@ -60,11 +60,11 @@ export default function Intro() {
                 I <span ref={el}></span>
             </h3>
             {/*Linkedin link */}
-            <a href="https://www.linkedin.com/in/jagrati-gupta-abbb43217/" target="_blank" >
-                <img src={linkedinImg}
-                    alt="linkedin-link"
-                    className='w-10 h-10 rounded my-10 cursor-pointer transition-all rotate-45 hover:rotate-0' />
+            <a href={Resume} download className='py-3 px-4 text-white bg-[#384258]  mt-7 rounded-sm shadow shadow-[#384258]' >
+                Download Resume
             </a>
+
+
             {/* Scroll-down button */}
             <button onClick={scrollDown}
                 className='intro-scroll'>
