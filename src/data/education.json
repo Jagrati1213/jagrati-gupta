@@ -1,20 +1,14 @@
 [
     {
-        "degree": " UG Degree",
-        "university": "IGNTU University",
-        " time": "2019 - 2022",
-        "course": "Bachelor of Computer Science"
-    },
-    {
-        "degree": "PG Degree",
-        "university": " TIT University",
+        "score": 7.2,
+        "university": "Technocrats Institution of Technology  University",
         "time": "2022 - 2024",
         "course": "Master of Computer Science"
     },
     {
-        "degree": "Intermediate Education",
-        "university": " SVM",
-        "time": "2019 - 2020",
-        "course": " MP board"
+        "score": 8.75,
+        "university": "Indira Gandhi National Tribal University",
+        "time": "2019 - 2022",
+        "course": "Bachelor of Computer Science"
     }
 ]

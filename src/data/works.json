@@ -1,21 +1,29 @@
 [
     {
-        "position": "Web dev",
-        "company": "WebnU",
-        "time": "Jan 2022 - May 2022",
-        "des": "Responsive Design for Optimal User Experience HTML, CSS, JavaScript Development Seamless Integration of Visuals and Content",
+        "position": "Software Developer",
+        "company": "Xeon App",
+        "time": "Feb 2024 - present",
+        "des": "Managed 3+ plugins as a full-time on-call engineer, ensuring seamless operation and enhancing vendor satisfaction.Developed plugins for vendors using Remix JS and Polaris components. Integrated applications with the Shopify, enhancing vendor capabilities in 15% improvement performance",
         "workLink": [
             {
-                "link": "https://onzo.in/",
-                "projectName": "Onzo"
+                "link": "https://apps.shopify.com/jedi-stock-counter?surface_intra_position=1&surface_type=partners&surface_version=redesign",
+                "projectName": "Jedi App"
+            },
+            {
+                "link": "https://apps.shopify.com/low-stock-notifier?search_id=3922aa7f-3cac-42d7-9d85-02bf0e24a525&surface_detail=xeon&surface_inter_position=1&surface_intra_position=4&surface_type=search",
+                "projectName": "Low stock counter"
+            },
+            {
+                "link": "https://apps.shopify.com/auto-hide-unhide-products?search_id=8451616a-51d9-421d-bf17-e34e33160eaa&surface_detail=xeon&surface_inter_position=1&surface_intra_position=1&surface_type=search",
+                "projectName": "Hide and unhide products"
             }
         ]
     },
     {
         "position": "Frontend Developer",
-        "company": "FrintArt",
-        "time": "May 2022 - Jan 2023",
-        "des": " Enhanced User Interfaces Collaborated on Web Development Bit Bucket for Codebase Management",
+        "company": "Frint Art",
+        "time": "Sep 2022 - Jan 2023",
+        "des": "Served as a full-time on-call engineer, managing 2+ websites to ensure optimal performance and user experience. Designed and developed websites using Figma for design and JavaScript for implementation.",
         "workLink": [
             {
                 "link": "https://frintart.com/",
@@ -24,9 +32,15 @@
         ]
     },
     {
-        "position": "Frontend Developer",
-        "company": "TopBar",
-        "time": "Nov 2023 - Dec 2023",
-        "des": "It\"s a freelancing work, where I use React js, and apis"
+        "position": "Web developer",
+        "company": "WebnU",
+        "time": "Jan 2022 - Sep 2022",
+        "des": "Served as a full-time on-call engineer with responsibilities in website management. Collaborated with design teams to create cohesive and functional web designs, achieving a 30% reduction in design-to-development time.",
+        "workLink": [
+            {
+                "link": "https://onzo.in/",
+                "projectName": "Onzo"
+            }
+        ]
     }
 ]

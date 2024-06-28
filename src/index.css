@@ -4,7 +4,7 @@
 
 @layer components {
     .heading {
-        @apply inline-block relative after:absolute after:bottom-0 after:content-[""] after:h-[2px] after:my-auto after:mx-0 after:bg-green-400 after:top-12 after:left-0 after:w-full text-center md:text-3xl text-xl text-white uppercase;
+        @apply inline-block relative after:absolute after:bottom-0 after:content-[""] after:h-[2px] after:my-auto after:mx-0 after:bg-green-400 after:top-12 after:left-0 after:w-full text-center md:text-3xl text-2xl text-white uppercase;
 
     }
 
@@ -37,7 +37,7 @@
     }
 
     .experience {
-        @apply w-full flex justify-center items-center flex-col mx-auto bg-[#272b33] py-10;
+        @apply w-full flex justify-center items-center flex-col mx-auto bg-[#272b33] lg:py-10 py-4;
     }
 
     .experience-heading {

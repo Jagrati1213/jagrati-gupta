@@ -1,5 +1,6 @@
+import Education from './components/Education';
 import About from './components/about/About';
-import Experience from './components/experience/Experience';
+import Experience from './components/experience';
 import Home from './components/home/Home';
 import Project from './components/project/Project';
 import AOS from 'aos';
@@ -9,14 +10,13 @@ function App() {
 
   AOS.init();
   return (
-    <>
-      <div className="app w-full bg-[#272b33]">
-        <Home />
-        <About />
-        <Experience />
-        <Project />
-      </div>
-    </>
+    <div className="app w-full bg-[#272b33]">
+      <Home />
+      <About />
+      <Experience />
+      <Education />
+      <Project />
+    </div>
   );
 }
 
