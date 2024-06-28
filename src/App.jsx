@@ -1,8 +1,8 @@
+import About from "./components/About/About";
 import Education from "./components/Education";
 import Experience from "./components/Experience";
 import Home from "./components/Home";
 import Project from "./components/Project";
-import About from "./components/About/index";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
