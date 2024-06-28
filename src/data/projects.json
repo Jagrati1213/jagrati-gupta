@@ -1,22 +1,20 @@
 [
     {
-        "gitLink": "https://github.com/Jagrati1213/namaste-react-js-course/tree/main/snap-gpt",
-        "projectLink": "https://film-chicks-hm83.vercel.app/",
-        "title": "Film-Chicks",
-        "des": "Film-chicks is a dynamic web app. Offer users the latest movie releases, detailed, and personalized recommendations.",
+        "projectLink": "https://lets-scan-dashboard.vercel.app/",
+        "title": "Let’s Scan",
+        "des": "Full-stack project using MERN technology. Enables restaurant owners to generate QR codes for table-side ordering. Users can scan QR codes to order via a website.Vendors can view order lists and payments on the dashboard.",
         "skill": [
-            "TailWind",
+            "Node JS",
+            "Express JS",
+            "MongoDB",
             "React",
-            "OpenAi GPT",
-            "Redux",
-            "Firebase"
+            "Redux/toolkit"
         ]
     },
     {
-        "gitLink": "https://github.com/Jagrati1213/DesiBazaar",
         "projectLink": "https://desibazar-xi.vercel.app/",
         "title": "Desi Bazar",
-        "des": "It's a react base E- commerce website, where you can add products, delete products, add to wishlist, login, signin",
+        "des": "E-commerce project built with React. Manages user details such as profiles, wishlists, and shopping bags with Redux-toolkit and local storage. No payment integration; frontend only",
         "skill": [
             "TailWind",
             "React",
@@ -26,18 +24,18 @@
         ]
     },
     {
-        "gitLink": "https://github.com/Jagrati1213/Drag-it",
-        "projectLink": "https://react-flow-learning.vercel.app/",
-        "title": "Drag It",
-        "des": "Crafted a dynamic project using React Flow ",
+        "projectLink": "https://film-chicks-hm83.vercel.app/",
+        "title": "Film-Chicks",
+        "des": "Film-chicks is a dynamic web app. Offer users the latest movie releases, detailed, and personalized recommendations.",
         "skill": [
-            "Ant-design",
+            "TailWind",
             "React",
-            "React-flow"
+            "Redux",
+            "Redux Toolkit",
+            "TMDB"
         ]
     },
     {
-        "gitLink": "https://github.com/Jagrati1213/react-spotify-clone",
         "projectLink": "https://react-spotify-clone-one.vercel.app/",
         "title": "Spotify Song List Clone",
         "des": "It's a spotify clone, where you can track yours up-to-date songs list, That you are listening in your spotify",
@@ -49,10 +47,29 @@
         ]
     },
     {
-        "gitLink": "https://github.com/Jagrati1213/budget-app",
+        "projectLink": "https://react-flow-learning.vercel.app/",
+        "title": "Drag It",
+        "des": "Crafted a dynamic project using React Flow",
+        "skill": [
+            "Ant-design",
+            "React",
+            "React-flow"
+        ]
+    },
+    {
+        "projectLink": "https://jagrati1213.github.io/snake-game/",
+        "title": "Snake Game",
+        "des": "This Snake Game is a classic and entertaining web-based game built using HTML, CSS, and JavaScript. It brings back the nostalgia of the retro Snake Game but with a modern twist. Snake Game",
+        "skill": [
+            "html",
+            "CSS",
+            "Javascript"
+        ]
+    },
+    {
         "projectLink": "https://jagrati1213.github.io/budget-app",
-        "title": "budget-app",
-        "des": "Budgeting Made Easy: Your Path to Financial Freedom",
+        "title": "Budget App",
+        "des": "The Budget App is a simple and intuitive web application designed to help users manage their finances effectively. It allows users to create budgets, track expenses, and analyze their spending.",
         "skill": [
             "html",
             "JS",
@@ -61,21 +78,9 @@
         ]
     },
     {
-        "gitLink": "https://github.com/Jagrati1213/snake-game",
-        "projectLink": "https://jagrati1213.github.io/snake-game/",
-        "title": "Snake Game",
-        "des": "Snake game Play with your free time to refused the stess",
-        "skill": [
-            "html",
-            "JS",
-            "CSS"
-        ]
-    },
-    {
-        "gitLink": "https://github.com/Jagrati1213/Tictacteo",
         "projectLink": "https://jagrati1213.github.io/Tictacteo/",
-        "title": "TicTacTeo",
-        "des": "Classic Tic Tac Toe game implementation in JavaScript",
+        "title": "Tic Tac Teo",
+        "des": "This is a simple Tic Tac Toe game built using HTML, CSS, and JavaScript. It's a classic two-player game where players take turns marking their symbol (X or O) in a 3x3 grid. The objective is to achieve three of your symbols in a row horizontally, vertically, or diagonally before your opponent",
         "skill": [
             "html",
             "JS",
@@ -84,10 +89,9 @@
         ]
     },
     {
-        "gitLink": "https://github.com/Jagrati1213/password-generator",
         "projectLink": "https://jagrati1213.github.io/password-generator/",
         "title": "Password Generator",
-        "des": "Generate secure passwords with this versatile Password Generator.",
+        "des": "This is a simple Password Generator App that helps you generate strong and secure passwords. The application is built using HTML, CSS, and JavaScript to provide a user-friendly and efficient password generation experience.",
         "skill": [
             "html",
             "JS",
@@ -96,10 +100,9 @@
         ]
     },
     {
-        "gitLink": "https://github.com/Jagrati1213/Quizgame",
         "projectLink": "https://jagrati1213.github.io/Quizgame/",
         "title": "Quiz Game",
-        "des": "Empower learning with our interactive Quiz App! ",
+        "des": "Welcome to the Quiz App! This interactive web application is designed to allow users to take quizzes on various topics and test their knowledge. The application is built using HTML, CSS, and JavaScript.",
         "skill": [
             "html",
             "JS",
@@ -108,10 +111,9 @@
         ]
     },
     {
-        "gitLink": "https://github.com/Jagrati1213/Dictionary",
         "projectLink": "https://jagrati1213.github.io/Dictionary",
         "title": "Dictionary App",
-        "des": "Instant definitions, synonyms, and translations in one app.",
+        "des": "The Dictionary App is a simple web application that allows users to look up the definitions of words. This app is built using HTML, CSS, and JavaScript, making it lightweight and easy to use.",
         "skill": [
             "html",
             "JS",

@@ -5,8 +5,7 @@ export default function Particle() {
   const particlesInit = async (main) => {
     await loadFull(main);
   };
-
-  const particlesLoaded = async (container) => { };
+  const particlesLoaded = async (container) => {};
 
   return (
     <Particles
