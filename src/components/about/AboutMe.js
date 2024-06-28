@@ -26,32 +26,19 @@ export default function AboutMe() {
     }, []);
 
     return (
-        <div className="about-me lg:w-3/6 w-full mb-10 md:mb-0">
-            <h2 className='text-white text-xl font-semibold mb-5'>Who Am I?</h2>
-
-            <ol className='text-white text-sm md:text-md ml-2'>
-                <li className='about-li' data-icon="🦄">
-                    I'm a front-end & React JS developer.
-                </li>
-                <li className='about-li'>
-                    I Love to Learned new things, & create sites.
-                </li>
-                <li className='about-li'>
-                    I also worked on JavaScript, Jquery, Typescript.
-                </li>
-                <li className='about-li'>
-                    You can contact me on <i>Linkedin</i>, if you want to create your own sites.
-                </li>
+        <div className="about-me lg:w-3/6 w-full mb-10 md:mb-0 lg:border-r-2 border-gray-500 pr-6">
+            <h2 className='text-white text-xl md:text-2xl font-semibold mb-5'>Who Am I?</h2>
+            <ol className='text-white text-sm md:text-[14px] ml-2 text-justify'>
+                <li className='about-li' data-icon="🦄">I'm a front-end & React JS developer.</li>
+                <li className='about-li'>Experienced with modern frameworks like React JS, Redux, and Redux Toolkit.</li>
+                <li className='about-li'>Skilled in TypeScript for building scalable and robust applications.</li>
+                <li className='about-li'>Familiar with data fetching and API integration using Axios.</li>
+                <li className="about-li">Knowledgeable in MongoDB for database management.</li>
+                <li className="about-li">Competent in server-side JavaScript with Node.js and Express.js.</li>
+                <li className="about-li">Experienced in building applications with Remix JS and Next.js.</li>
+                <li className="about-li">Proficient in UI frameworks such as Bootstrap, Tailwind CSS, Ant Design, and Polaris.</li>
                 <li className='about-li' ref={about}></li>
             </ol>
-
-            <p className='text-xs md:text-md pt-4 lg:pr-10 text-[#61a796] text-justify' >
-                Since 2019 - I've spent my time seeking and learning new technologies.
-                This has led to me working on some amazing world-class projects, worked at some
-                amazing places like [ WebnU, FrintArt, TopBar ], and worked with some great people.
-                If you are looking for a dedicated front-end developer who is passionate about
-                creating exceptional user experiences, please don't hesitate to get in touch.
-            </p>
         </div>
     )
 }

@@ -1,34 +1,20 @@
 [
-    {
-        "name": "Html",
-        "progress": 65
-    },
-    {
-        "name": "CSS 3",
-        "progress": 65
-    },
-    {
-        "name": "JavaScript",
-        "progress": 70
-    },
-    {
-        "name": "React JS",
-        "progress": 60
-    },
-    {
-        "name": "Jquery",
-        "progress": 70
-    },
-    {
-        "name": "Bootstrap",
-        "progress": 59
-    },
-    {
-        "name": "Tailwind",
-        "progress": 59
-    },
-    {
-        "name": "TypeScript",
-        "progress": 60
-    }
+    "Html",
+    "CSS 3",
+    "JavaScript",
+    "React JS",
+    "Jquery",
+    "TypeScript",
+    "Redux",
+    "Redux/Toolkit",
+    "Axios",
+    "MongoDB",
+    "Node JS",
+    "Express JS",
+    "Remix JS",
+    "Next JS",
+    "Bootstrap",
+    "Tailwind CSS",
+    "Ant-Design",
+    "Polaris"
 ]
