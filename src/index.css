@@ -25,7 +25,7 @@
     }
 
     .intro-scroll {
-        @apply flex items-center justify-center absolute bottom-40 text-xl rounded-full w-10 h-10 bg-white text-blue-900 hover:text-green-400;
+        @apply flex items-center justify-center absolute bottom-40 text-xl rounded-full w-10 h-10 bg-white text-blue-900 hover:text-green-400 animate-bounce
     }
 
     .about-li {
@@ -45,7 +45,7 @@
     }
 
     .show-btn {
-        @apply border-2 border-emerald-600 text-base text-white p-3 rounded-sm my-20 transition-all hover:text-black hover:bg-emerald-500;
+        @apply border-2 border-emerald-600 text-base text-white p-3 rounded-3xl my-20 transition-all hover:text-black hover:font-semibold hover:bg-emerald-500;
     }
 
     .project-container {
@@ -76,7 +76,7 @@ body {
 
 /* width */
 body::-webkit-scrollbar {
-    width: 14px;
+    width: 9px;
 }
 
 /* Track */

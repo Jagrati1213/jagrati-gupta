@@ -1,7 +1,8 @@
 import React, { useEffect, useRef } from "react";
-import profileImg from "../../images/jagrati.jpeg";
+import profileImg from "../../images/Jagrati.png";
 import Resume from "../../images/Jagrati Gupta.pdf";
 import Typed from "typed.js";
+import { FaArrowDown, FaCloudDownloadAlt } from "react-icons/fa";
 
 export default function Intro() {
   //scroll Up
@@ -18,20 +19,19 @@ export default function Intro() {
   useEffect(() => {
     const typed = new Typed(el.current, {
       strings: [
-        "'m a frontend Developer. ",
-        "'m a React Js Developer. ",
-        "like to debugging. ",
-        "love learn new techs. ",
+        "'m a frontend Developer",
+        "'m a React Js Developer",
+        "like to debugging",
+        "love learn new techs",
       ],
       // Speed settings
       startDelay: 200,
-      typeSpeed: 100,
-      backSpeed: 100,
+      typeSpeed: 80,
+      backSpeed: 50,
       backDelay: 100,
       smartBackspace: true,
       loop: true,
       showCursor: true,
-      cursorChar: "<",
     });
 
     // Destropying
@@ -46,7 +46,7 @@ export default function Intro() {
       <img
         src={profileImg}
         alt="profile-img"
-        className="object-cover profile w-32 h-32 rounded-full border-green-600 border-4"
+        className="object-cover profile w-32 h-32 lg:h-44 lg:w-44 rounded-full border-green-600 border-4"
         data-aos="fade-down"
         data-aos-duration="2000"
       />
@@ -58,8 +58,8 @@ export default function Intro() {
         data-aos-duration="2000"
       >
         Hi, I'm
-        <span className="my_name text-green-400"> Jagrati Gupta</span>.
-        <span className="animate-bounce absolute hidden lg:inline">👋🏽</span>
+        <span className="my_name text-green-300"> Jagrati Gupta</span>
+        <span className="animate-pulse absolute hidden lg:inline">👋🏽</span>
       </h1>
 
       {/* Auto typed-note */}
@@ -71,14 +71,16 @@ export default function Intro() {
       <a
         href={Resume}
         download
-        className="py-3 px-4 text-white bg-[#384258]  mt-7 rounded-sm shadow shadow-[#384258]"
+        className="py-3 px-6 text-white bg-[#151c2c]  mt-7 rounded-full shadow shadow-[#151c2c] flex justify-center items-center gap-x-2 text-sm"
       >
-        Resume
+        <FaCloudDownloadAlt className="text-lg" />
+        <span>DownLoad CV</span>
       </a>
+
 
       {/* Scroll-down button */}
       <button onClick={scrollDown} className="intro-scroll">
-        <ion-icon name="caret-down-sharp"></ion-icon>
+        <FaArrowDown />
       </button>
     </div>
   );
