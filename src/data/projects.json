@@ -8,7 +8,8 @@
             "Express JS",
             "MongoDB",
             "React",
-            "Redux/toolkit"
+            "Redux/toolkit",
+            "Axios"
         ]
     },
     {
@@ -24,6 +25,17 @@
         ]
     },
     {
+        "projectLink": "https://react-spotify-clone-one.vercel.app/",
+        "title": "Spotify Song List Clone",
+        "des": "It's a spotify clone, where you can track yours up-to-date songs list, That you are listening in your spotify",
+        "skill": [
+            "TailWind",
+            "React",
+            "WebAPI",
+            "LocalStorage"
+        ]
+    },
+    {
         "projectLink": "https://film-chicks-hm83.vercel.app/",
         "title": "Film-Chicks",
         "des": "Film-chicks is a dynamic web app. Offer users the latest movie releases, detailed, and personalized recommendations.",
@@ -33,17 +45,6 @@
             "Redux",
             "Redux Toolkit",
             "TMDB"
-        ]
-    },
-    {
-        "projectLink": "https://react-spotify-clone-one.vercel.app/",
-        "title": "Spotify Song List Clone",
-        "des": "It's a spotify clone, where you can track yours up-to-date songs list, That you are listening in your spotify",
-        "skill": [
-            "TailWind",
-            "React",
-            "WebAPI",
-            "LocalStorage"
         ]
     },
     {
