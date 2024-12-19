@@ -34,7 +34,7 @@ export default function Intro() {
       showCursor: true,
     });
 
-    // Destropying
+    // Destroying
     return () => {
       typed.destroy();
     };
